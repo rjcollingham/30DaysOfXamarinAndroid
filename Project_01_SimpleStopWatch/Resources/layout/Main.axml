@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="#ff090123">
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reset"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:background="@android:color/transparent"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="10sp" />
+        <TextView
+            android:id="@+id/lblTime"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/white"
+            android:textSize="100sp"
+            android:text="0.0"
+            android:gravity="center" />
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/btnPlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ff525bfc"
+            android:text="@string/fa_play"
+            android:textSize="30sp"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/btnPause"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ff66bd09"
+            android:text="@string/fa_pause"
+            android:textSize="30sp"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>

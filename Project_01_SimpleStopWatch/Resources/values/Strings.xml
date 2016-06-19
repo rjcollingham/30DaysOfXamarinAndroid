@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="reset">Reset</string>
+	<string name="app_name">Project_01_SimpleStopWatch</string>
+	<string name="fa_play">&#xf04b;</string>
+	<string name="fa_pause">&#xf04c;</string>
+</resources>
