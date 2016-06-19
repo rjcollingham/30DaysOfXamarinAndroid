@@ -36,21 +36,25 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:weightSum="2">
-        <Button
+        <ImageButton
             android:id="@+id/btnPlay"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ff525bfc"
-            android:text="@string/fa_play"
-            android:textSize="30sp"
+            android:src="@drawable/play"
+            android:scaleType="centerInside"
+            android:paddingLeft="80sp"
+            android:paddingRight="80sp"
             android:layout_weight="1" />
-        <Button
+        <ImageButton
             android:id="@+id/btnPause"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ff66bd09"
-            android:text="@string/fa_pause"
-            android:textSize="30sp"
+            android:src="@drawable/pause"
+            android:scaleType="centerInside"
+            android:paddingLeft="80sp"
+            android:paddingRight="80sp"
             android:layout_weight="1" />
     </LinearLayout>
 </LinearLayout>

@@ -12,8 +12,8 @@ namespace Project_01_SimpleStopWatch
 	public class MainActivity : Activity
 	{
 		Button btnReset;
-		Button btnPlay;
-		Button btnPause;
+		ImageButton btnPlay;
+		ImageButton btnPause;
 		TextView lblTime;
 		Timer timer;
 
@@ -21,9 +21,6 @@ namespace Project_01_SimpleStopWatch
 
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
-
-			Typeface font = Typeface.CreateFromAsset(Application.Context.Assets, "fontawesome.ttf");
-
 			base.OnCreate(savedInstanceState);
 
 			SetContentView(Resource.Layout.Main);
@@ -31,12 +28,9 @@ namespace Project_01_SimpleStopWatch
 			timer.Elapsed += Time_Trigger;
 
 			btnReset = FindViewById<Button>(Resource.Id.btnReset);
-			btnPlay = FindViewById<Button>(Resource.Id.btnPlay);
-			btnPause = FindViewById<Button>(Resource.Id.btnPause);
+			btnPlay = FindViewById<ImageButton>(Resource.Id.btnPlay);
+			btnPause = FindViewById<ImageButton>(Resource.Id.btnPause);
 			lblTime = FindViewById<TextView>(Resource.Id.lblTime);
-
-			btnPlay.SetTypeface(font, TypefaceStyle.Normal);
-			btnPause.SetTypeface(font, TypefaceStyle.Normal);
 
 			btnReset.Enabled = false;
 			btnPause.Enabled = false;
