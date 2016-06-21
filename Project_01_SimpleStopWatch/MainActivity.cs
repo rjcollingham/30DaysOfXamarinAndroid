@@ -8,7 +8,7 @@ using Android.Content;
 
 namespace Project_01_SimpleStopWatch
 {
-	[Activity(Theme = "@android:style/Theme.Material.Light", Label = "Project_01_SimpleStopWatch", MainLauncher = true, Icon = "@mipmap/icon")]
+	[Activity(Theme = "@style/Theme.NoTitle", Label = "Project_01_SimpleStopWatch", MainLauncher = true, Icon = "@mipmap/icon")]
 	public class MainActivity : Activity
 	{
 		Button btnReset;

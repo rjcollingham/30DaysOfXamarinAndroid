@@ -64,6 +64,7 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
     <AndroidResource Include="Resources\drawable\pause.png" />
     <AndroidResource Include="Resources\drawable\play.png" />
+    <AndroidResource Include="Resources\values\NoTitleTheme.xml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

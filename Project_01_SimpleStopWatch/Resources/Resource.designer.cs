@@ -63,17 +63,17 @@ namespace Project_01_SimpleStopWatch
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060003
-			public const int btnPause = 2131099651;
+			// aapt resource value: 0x7f070003
+			public const int btnPause = 2131165187;
 			
-			// aapt resource value: 0x7f060002
-			public const int btnPlay = 2131099650;
+			// aapt resource value: 0x7f070002
+			public const int btnPlay = 2131165186;
 			
-			// aapt resource value: 0x7f060000
-			public const int btnReset = 2131099648;
+			// aapt resource value: 0x7f070000
+			public const int btnReset = 2131165184;
 			
-			// aapt resource value: 0x7f060001
-			public const int lblTime = 2131099649;
+			// aapt resource value: 0x7f070001
+			public const int lblTime = 2131165185;
 			
 			static Id()
 			{
@@ -120,17 +120,17 @@ namespace Project_01_SimpleStopWatch
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f050001
-			public const int app_name = 2131034113;
+			// aapt resource value: 0x7f060001
+			public const int app_name = 2131099649;
 			
-			// aapt resource value: 0x7f050003
-			public const int fa_pause = 2131034115;
+			// aapt resource value: 0x7f060003
+			public const int fa_pause = 2131099651;
 			
-			// aapt resource value: 0x7f050002
-			public const int fa_play = 2131034114;
+			// aapt resource value: 0x7f060002
+			public const int fa_play = 2131099650;
 			
-			// aapt resource value: 0x7f050000
-			public const int reset = 2131034112;
+			// aapt resource value: 0x7f060000
+			public const int reset = 2131099648;
 			
 			static String()
 			{
@@ -138,6 +138,22 @@ namespace Project_01_SimpleStopWatch
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int Theme_NoTitle = 2131034112;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
 			{
 			}
 		}
