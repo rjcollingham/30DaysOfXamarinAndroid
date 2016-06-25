@@ -12,3 +12,8 @@ This repository is my Xamarin Android set of projects.
 
 ![Simple Stop Watch Android](https://github.com/rjcollingham/30DaysOfXamarinAndroid/blob/master/Screenshots/01Android.gif)
 
+## [Project 02 - Custom Font](https://github.com/rjcollingham/30DaysOfXamarinAndroid/tree/master/Project_02_CustomFont)
+
+![Custom Font Android](https://github.com/rjcollingham/30DaysOfXamarinAndroid/blob/master/Screenshots/02Android.gif)
+
+
