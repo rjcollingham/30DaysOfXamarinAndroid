@@ -6,7 +6,7 @@ using System;
 
 namespace Project_02_CustomFont
 {
-	[Activity(Label = "", Theme = "@android:style/Theme.Material",
+	[Activity(Label = "Custom Font", Theme = "@android:style/Theme.Material",
 	          MainLauncher = true, Icon = "@mipmap/icon")]
 	public class MainActivity : Activity
 	{
